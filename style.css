@@ -8,6 +8,9 @@
 body {
   width:vw;
   min-width: 1120px;
+  background-color:#F5F4F0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
 }
 
 main {
@@ -24,6 +27,7 @@ header h1 {
   margin-bottom: 8px;
   text-transform: uppercase;
   color: #E1624F;
+  font-weight:bold;
 }
 
 figure figcaption {
@@ -66,7 +70,24 @@ article p {
 
 article ul {
   margin-bottom: 48px;
-  padding-left: 16px;
+  padding-left: 24px;
+}
+
+article ul li {
+  color:#0C51A7;
+  font-weight:bold;
+}
+
+.colored_list li:nth-of-type(1) {
+  color:#591B98;
+}
+
+.colored_list li:nth-of-type(2) {
+  color:#E5245E;
+}
+
+.colored_list li:nth-of-type(3) {
+  color:#E95E10;
 }
 
 footer {
@@ -75,5 +96,10 @@ footer {
 
 footer p {
   margin-top: 8px;
+}
+
+#withLove {
+ font-family: "Alice", serif;
+  margin-top:65px;
 }
 
